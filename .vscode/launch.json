@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "e01",
+            "request": "launch",
+            "mainClass": "e01",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "e02",
+            "request": "launch",
+            "mainClass": "e02",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "e02_2",
+            "request": "launch",
+            "mainClass": "e02_2",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "e03",
+            "request": "launch",
+            "mainClass": "e03",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "e04",
+            "request": "launch",
+            "mainClass": "e04",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "e05",
+            "request": "launch",
+            "mainClass": "e05",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "e06",
+            "request": "launch",
+            "mainClass": "e06",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "exercicio01",
+            "request": "launch",
+            "mainClass": "exercicio01",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "exercicio1",
+            "request": "launch",
+            "mainClass": "exercicio1",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "exercicio2",
+            "request": "launch",
+            "mainClass": "exercicio2",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "exercicio3",
+            "request": "launch",
+            "mainClass": "exercicio3",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "exercicio4",
+            "request": "launch",
+            "mainClass": "exercicio4",
+            "projectName": "intro_progr_33b2071a"
+        },
+        {
+            "type": "java",
+            "name": "exercicio5",
+            "request": "launch",
+            "mainClass": "exercicio5",
+            "projectName": "intro_progr_33b2071a"
+        }
+    ]
+}
