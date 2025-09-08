@@ -20,6 +20,8 @@ public class e04
         int imp = 0;
         int soma_imp = 0;
         int val = t.nextInt();
+        
+               
         do {
             System.out.print("Informe um numero: ");
             
