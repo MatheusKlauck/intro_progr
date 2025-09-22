@@ -6,7 +6,7 @@
 public class e02
 {    
     public static void main (String args[]) {
-        int count = 0;
+        int count = 1;
         int i = 100;
         do{
             i ++;
