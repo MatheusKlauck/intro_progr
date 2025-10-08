@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Televisao
@@ -6,10 +5,7 @@ public class Televisao
     private boolean ligada;
     private int volume;
     private int canal;
-
-    /**
-     * Constructor for objects of class Televisao
-     */
+    
     public Televisao()
     {
         ligada = false;
@@ -27,12 +23,15 @@ public class Televisao
         ligada = false;
     }
     
-    public void aumentarVolume() {
-        volume = 100;
+    public void aumentarVolume(int novoVolume) {
+        if(novoVolume > 100) volume = 100;
+        else if(novoVolume < 0) volume = 0;
+        else volume = novoVolume;
     }
     
     public void mudarCanal(int novoCanal) {
-        canal = novoCanal;
+        if(ligada)
+            canal = novoCanal;
     }
     
     private String getEstado() {
@@ -41,7 +40,7 @@ public class Televisao
     }
     
     public void mostrarEstado() {
-        System.out.println("\n"+
+        System.out.println("\n\n"+
         "Status da Televisão: \n"+
         "\n\t Canal : " + canal  +
         "\n\t Volume: " + volume +
