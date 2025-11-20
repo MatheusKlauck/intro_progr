@@ -1,20 +1,16 @@
 
 /**
- * Write a description of class matriz here.
+ * Write a description of class main here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-import java.util.*;
-import java.lang.reflect.Method;
-
-public class matriz
+public class main
 {
-    public static void ExibirVetor(int [] m) {
+     public static void ExibirVetor(int [] m) {
         System.out.print("[");
         for( int i = 0; i < m.length; i++) {
-                System.out.print(m[i] + ",");   // i = 0, m[0] = 3
-                                                // i = 1, m[1] = 6
+                System.out.print(m[i] + ",");
         }
         System.out.print("]");
     }
@@ -89,23 +85,5 @@ public class matriz
         }
          
         return v;
-    }
-    
-    public static void main (String [] args) {
-        int linhas = 5;
-        int colunas = 5;
-        int[][] mat = new int [linhas][colunas];
-        mat = PreencherMatriz(mat, new Random());
-        ExibirMatriz(mat);
-
-        int soma = SomarElementos(mat);
-        System.out.println("Soma: "+soma);
-        int[] dp = DiagonalPrincipal(mat);
-        System.out.println("Diagonal Principal: "+ ExArray(dp));
-        int[] ds = DiagonalSecundaria(mat);
-        System.out.println("Diagonal Secundaria: "+ ExArray(ds));
-        
-        int[] v = JogarNoVetor(mat);
-        ExibirVetor(v);
     }
 }
